@@ -1,11 +1,13 @@
 function addNote(){
 
-let note=document.createElement("textarea");
+const notesContainer = document.getElementById("notes");
 
-note.className="note";
+const note = document.createElement("textarea");
 
-note.placeholder="Write your note...";
+note.className = "note";
 
-document.getElementById("notes").appendChild(note);
+note.placeholder = "Write your note...";
+
+notesContainer.appendChild(note);
 
 }
