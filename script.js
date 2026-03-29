@@ -1,6 +1,6 @@
 function addNote(){
 
-const notesContainer = document.getElementById("notes");
+const notesContainer = document.getElementById("notesContainer");
 
 const note = document.createElement("textarea");
 
