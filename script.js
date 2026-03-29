@@ -1,6 +1,6 @@
-function addNote(){
+function addNote() {
 
-const notesContainer = document.getElementById("notesContainer");
+const container = document.getElementById("notesContainer");
 
 const note = document.createElement("textarea");
 
@@ -8,6 +8,6 @@ note.className = "note";
 
 note.placeholder = "Write your note...";
 
-notesContainer.appendChild(note);
+container.appendChild(note);
 
 }
